@@ -1,0 +1,14 @@
+{
+    "tokens": [
+        {
+            "token": "AUTH-2025-12-31-1234",
+            "description": "Default testing token",
+            "allowed_targets": ["example.com", "test.local", "127.0.0.1", "localhost"]
+        },
+        {
+            "token": "AUTH-2025-12-31-5678",
+            "description": "Development token",
+            "allowed_targets": ["*"]
+        }
+    ]
+}
